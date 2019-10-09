@@ -6,7 +6,7 @@
 #include <ud_math.h>
 
 // Macro
-# define ud_matha_si_sort(arr)      ud_merge_sort((size_t*)arr->val, 0, arr->len - 1)
+# define ud_matha_si_sort(arr)      ud_math_merge_sort((size_t*)arr->val, 0, arr->len - 1)
 
 // Structures
 
