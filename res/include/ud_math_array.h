@@ -6,7 +6,7 @@
 #include <ud_math.h>
 
 // Macro
-# define ud_matha_si_sort(arr)      ud_math_merge_sort((size_t*)arr->val, 0, arr->len - 1)
+# define ud_matha_si_sort(arr)          (if (arr->type_s != sizeof(size_t)) ud_ut_error("Input must be a float array"); else ud_math_merge_sort((size_t*)arr->val, 0, arr->len - 1);)
 
 // Structures
 
@@ -16,6 +16,5 @@ ud_arr                              *ud_matha_itoa(long long n);
 float                               ud_matha_mean(ud_arr *x);
 float                               ud_matha_min_a(ud_arr *x);
 float                               ud_matha_max_a(ud_arr *x);
-void                                ud_matha_si_sort(ud_arr *x); 
 
 #endif
