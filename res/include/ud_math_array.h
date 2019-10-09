@@ -11,10 +11,10 @@
 // Structures
 
 // Prototypes
-ud_arr*                             ud_matha_softmax(ud_arr* x);
-ud_arr                              *ud_matha_itoa(long long n);
-float                               ud_matha_mean(ud_arr *x);
-float                               ud_matha_min_a(ud_arr *x);
-float                               ud_matha_max_a(ud_arr *x);
+ud_arr_float_a                      *ud_matha_softmax(ud_arr_float_a* x);
+ud_arr_float_a                      *ud_matha_itoa(long long n);
+float                               ud_matha_mean(ud_arr_float_a *x);
+float                               ud_matha_min_a(ud_arr_float_a *x);
+float                               ud_matha_max_a(ud_arr_float_a *x);
 
 #endif
