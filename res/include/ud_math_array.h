@@ -12,8 +12,6 @@
 // Structures
 
 // Prototypes
-ud_arr_type                         *ud_matha_type_float(void);
-ud_arr_type                         *ud_matha_type_size_t(void);
 ud_arr_float_a                      *ud_matha_softmax(ud_arr_float_a* x);
 ud_arr_float_a                      *ud_matha_itoa(long long n);
 float                               ud_matha_mean(ud_arr_float_a *x);
